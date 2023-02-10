@@ -50,23 +50,6 @@ span {
   right: 0;
 }
 
-.Fitness-img-box1:hover {
-  flex-grow: 2;
-}
-
-.Fitness-img-box1:hover p {
-  display: block;
-}
-
-.Fitness-img-box1:hover div {
-  display: block;
-}
-
-.Fitness-img-box1:hover h1 {
-  text-align: left;
-  padding-left: 30px;
-}
-
 .Fitness-img-box2 {
   position: relative;
   background-color: #f18684;
@@ -84,23 +67,6 @@ span {
   position: absolute;
   bottom: 0;
   right: 0;
-}
-
-.Fitness-img-box2:hover {
-  flex-grow: 2;
-}
-
-.Fitness-img-box2:hover p {
-  display: block;
-}
-
-.Fitness-img-box2:hover div {
-  display: block;
-}
-
-.Fitness-img-box2:hover h1 {
-  text-align: left;
-  padding-left: 30px;
 }
 
 .Fitness-img-box3 {
@@ -122,23 +88,6 @@ span {
   right: 0;
 }
 
-.Fitness-img-box3:hover {
-  flex-grow: 2;
-}
-
-.Fitness-img-box3:hover p {
-  display: block;
-}
-
-.Fitness-img-box3:hover div {
-  display: block;
-}
-
-.Fitness-img-box3:hover h1 {
-  text-align: left;
-  padding-left: 30px;
-}
-
 .Fitness-box-button {
   width: 100px;
   height: 35px;
@@ -149,3 +98,29 @@ span {
   padding: 5px;
   display: none;
 }
+
+.Fitness-img-box1:hover,
+.Fitness-img-box2:hover,
+.Fitness-img-box3:hover {
+  flex-grow: 2;
+}
+
+.Fitness-img-box1:hover p,
+.Fitness-img-box2:hover p,
+.Fitness-img-box3:hover p {
+  display: block;
+}
+
+.Fitness-img-box1:hover div,
+.Fitness-img-box2:hover div,
+.Fitness-img-box3:hover div {
+  display: block;
+}
+
+.Fitness-img-box1:hover h1,
+.Fitness-img-box2:hover h1,
+.Fitness-img-box3:hover h1 {
+  text-align: left;
+  padding-left: 30px;
+}
+
